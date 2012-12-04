@@ -1,0 +1,788 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'geoip' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose config file C:\Users\matan\.npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+7 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+8 verbose read json C:\Github\LinkedInLogin\package.json
+9 verbose from cache C:\Github\LinkedInLogin\package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'geoip', null ]
+12 silly cache add name=undefined spec="geoip" args=["geoip",null]
+13 verbose parsed url { pathname: 'geoip', path: 'geoip', href: 'geoip' }
+14 silly lockFile bf279f7b-geoip geoip
+15 verbose lock geoip C:\Users\matan\AppData\Roaming\npm-cache\bf279f7b-geoip.lock
+16 silly lockFile bf279f7b-geoip geoip
+17 verbose addNamed [ 'geoip', '' ]
+18 verbose addNamed [ null, '' ]
+19 silly lockFile 5bd2b521-geoip geoip@
+20 verbose lock geoip@ C:\Users\matan\AppData\Roaming\npm-cache\5bd2b521-geoip.lock
+21 silly addNameRange { name: 'geoip', range: '', hasData: false }
+22 verbose url raw geoip
+23 verbose url resolving [ 'https://registry.npmjs.org/', './geoip' ]
+24 verbose url resolved https://registry.npmjs.org/geoip
+25 info retry registry request attempt 1 at 22:58:48
+26 http GET https://registry.npmjs.org/geoip
+27 http 200 https://registry.npmjs.org/geoip
+28 silly registry.get cb [ 200,
+28 silly registry.get   { vary: 'Accept',
+28 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+28 silly registry.get     etag: '"4GU4QADS4YO4KHJAD388CBUPH"',
+28 silly registry.get     date: 'Tue, 04 Dec 2012 20:58:14 GMT',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'content-length': '37754' } ]
+29 silly addNameRange number 2 { name: 'geoip', range: '', hasData: true }
+30 silly addNameRange versions [ 'geoip',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.3.1-1',
+30 silly addNameRange     '0.3.2',
+30 silly addNameRange     '0.3.3',
+30 silly addNameRange     '0.3.3-1',
+30 silly addNameRange     '0.3.4',
+30 silly addNameRange     '0.3.4-1',
+30 silly addNameRange     '0.4.0beta1',
+30 silly addNameRange     '0.4.0beta2',
+30 silly addNameRange     '0.4.0rc',
+30 silly addNameRange     '0.4.0final',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.4.2-1',
+30 silly addNameRange     '0.4.2-2',
+30 silly addNameRange     '0.4.3',
+30 silly addNameRange     '0.4.4',
+30 silly addNameRange     '0.4.5',
+30 silly addNameRange     '0.4.6' ] ]
+31 verbose addNamed [ 'geoip', '0.4.6' ]
+32 verbose addNamed [ '0.4.6', '0.4.6' ]
+33 silly lockFile 9848cfa1-geoip-0-4-6 geoip@0.4.6
+34 verbose lock geoip@0.4.6 C:\Users\matan\AppData\Roaming\npm-cache\9848cfa1-geoip-0-4-6.lock
+35 silly lockFile a3139bb0--npmjs-org-geoip-geoip-0-4-6-tgz https://registry.npmjs.org/geoip/-/geoip-0.4.6.tgz
+36 verbose lock https://registry.npmjs.org/geoip/-/geoip-0.4.6.tgz C:\Users\matan\AppData\Roaming\npm-cache\a3139bb0--npmjs-org-geoip-geoip-0-4-6-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/geoip/-/geoip-0.4.6.tgz',
+37 verbose addRemoteTarball   'a1d29da0243b393b74825a91c8b0891808f334d7' ]
+38 info retry fetch attempt 1 at 22:58:50
+39 verbose fetch to= C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\tmp.tgz
+40 http GET https://registry.npmjs.org/geoip/-/geoip-0.4.6.tgz
+41 http 200 https://registry.npmjs.org/geoip/-/geoip-0.4.6.tgz
+42 silly shasum updated bytes 40960
+43 silly shasum updated bytes 40960
+44 silly shasum updated bytes 40960
+45 silly shasum updated bytes 40960
+46 silly shasum updated bytes 40960
+47 silly shasum updated bytes 40960
+48 silly shasum updated bytes 40960
+49 silly shasum updated bytes 40960
+50 silly shasum updated bytes 40960
+51 silly shasum updated bytes 40960
+52 silly shasum updated bytes 40960
+53 silly shasum updated bytes 40960
+54 silly shasum updated bytes 40960
+55 silly shasum updated bytes 40960
+56 silly shasum updated bytes 40960
+57 silly shasum updated bytes 40960
+58 silly shasum updated bytes 40960
+59 silly shasum updated bytes 40960
+60 silly shasum updated bytes 40960
+61 silly shasum updated bytes 40960
+62 silly shasum updated bytes 40960
+63 silly shasum updated bytes 40960
+64 silly shasum updated bytes 40960
+65 silly shasum updated bytes 40960
+66 silly shasum updated bytes 40960
+67 silly shasum updated bytes 40960
+68 silly shasum updated bytes 35070
+69 info shasum a1d29da0243b393b74825a91c8b0891808f334d7
+69 info shasum C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\tmp.tgz
+70 verbose tar unpack C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\tmp.tgz
+71 silly lockFile 213615be-30908-0-9610162808094174-package C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\package
+72 verbose lock C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\package C:\Users\matan\AppData\Roaming\npm-cache\213615be-30908-0-9610162808094174-package.lock
+73 silly gunzTarPerm modes [ '755', '644' ]
+74 silly gunzTarPerm extractEntry package.json
+75 silly gunzTarPerm extractEntry .npmignore
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm extractEntry LICENCE
+78 silly gunzTarPerm extractEntry index.js
+79 silly gunzTarPerm extractEntry wscript
+80 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README
+81 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoiplookup6.1.in
+82 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoiplookup.1.in
+83 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoipupdate.1.in
+84 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/Makefile.am
+85 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/Makefile.in
+86 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/NEWS
+87 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README.MinGW
+88 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/aclocal.m4
+89 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/INSTALL
+90 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP_internal.h
+91 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/regionName.c
+92 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/md5.c
+93 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.c
+94 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP.c
+95 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP.h
+96 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/timeZone.c
+97 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/md5.h
+98 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.c
+99 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.h
+100 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.h
+101 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.vc
+102 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.am
+103 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.in
+104 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/types.h
+105 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/global.h
+106 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/missing
+107 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/READMEwin32static.txt
+108 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/AUTHORS
+109 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/COPYING
+110 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.netware
+111 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/READMEwin32.txt
+112 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/get_ver.awk
+113 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/ltmain.sh
+114 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/install-sh
+115 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/depcomp
+116 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/configure.in
+117 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/TODO
+118 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/GeoIPWinDLL.patch
+119 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/config.sub
+120 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/benchmark.c
+121 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/region_test.txt
+122 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-asnum.c
+123 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test2.txt
+124 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-isp.c
+125 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/city_test.txt
+126 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-city.c
+127 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test_name.txt
+128 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-region.c
+129 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-org.c
+130 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test.txt
+131 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-netspeed.c
+132 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.vc
+133 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip.c
+134 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.am
+135 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.in
+136 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README.OSX
+137 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/GeoIP.conf.default
+138 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/Makefile.am
+139 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/Makefile.in
+140 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/bootstrap
+141 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/geoip.ico
+142 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/GeoIP.spec.in
+143 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/config.guess
+144 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.vc
+145 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/GeoIP.dat
+146 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/Makefile.am
+147 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/Makefile.in
+148 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/configure
+149 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.am
+150 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.in
+151 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.win32
+152 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoipupdate.c
+153 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.vc
+154 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoiplookup.c
+155 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoipupdate-pureperl.pl
+156 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.am
+157 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.in
+158 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoiplookup6.c
+159 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/ChangeLog
+160 silly gunzTarPerm extractEntry binding.gyp
+161 silly gunzTarPerm extractEntry src/country.cc
+162 silly gunzTarPerm extractEntry src/global.cc
+163 silly gunzTarPerm extractEntry src/init.cc
+164 silly gunzTarPerm extractEntry src/city.cc
+165 silly gunzTarPerm extractEntry src/region.h
+166 silly gunzTarPerm extractEntry src/utils.cc
+167 silly gunzTarPerm extractEntry src/netspeed.h
+168 silly gunzTarPerm extractEntry src/node_geoip.h
+169 silly gunzTarPerm extractEntry src/region.cc
+170 silly gunzTarPerm extractEntry src/city.h
+171 silly gunzTarPerm extractEntry src/country.h
+172 silly gunzTarPerm extractEntry src/country6.h
+173 silly gunzTarPerm extractEntry src/city6.cc
+174 silly gunzTarPerm extractEntry src/city6.h
+175 silly gunzTarPerm extractEntry src/netspeed.cc
+176 silly gunzTarPerm extractEntry src/org.h
+177 silly gunzTarPerm extractEntry src/country6.cc
+178 silly gunzTarPerm extractEntry src/global.h
+179 silly gunzTarPerm extractEntry src/org.cc
+180 silly gunzTarPerm extractEntry src/utils.h
+181 verbose read json C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\package\package.json
+182 silly lockFile 213615be-30908-0-9610162808094174-package C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\package
+183 verbose from cache C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\package\package.json
+184 verbose tar pack [ 'C:\\Users\\matan\\AppData\\Roaming\\npm-cache\\geoip\\0.4.6\\package.tgz',
+184 verbose tar pack   'C:\\Users\\matan\\AppData\\Local\\Temp\\npm-13588\\1354654730908-0.9610162808094174\\package' ]
+185 verbose tarball C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+186 verbose folder C:\Users\matan\AppData\Local\Temp\npm-13588\1354654730908-0.9610162808094174\package
+187 silly lockFile 5ec08171-pm-cache-geoip-0-4-6-package-tgz C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+188 verbose lock C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz C:\Users\matan\AppData\Roaming\npm-cache\5ec08171-pm-cache-geoip-0-4-6-package-tgz.lock
+189 silly lockFile 5ec08171-pm-cache-geoip-0-4-6-package-tgz C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+190 silly lockFile 445b1ab7-ng-npm-cache-geoip-0-4-6-package C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package
+191 verbose lock C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package C:\Users\matan\AppData\Roaming\npm-cache\445b1ab7-ng-npm-cache-geoip-0-4-6-package.lock
+192 silly lockFile 445b1ab7-ng-npm-cache-geoip-0-4-6-package C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package
+193 verbose tar unpack C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+194 silly lockFile 445b1ab7-ng-npm-cache-geoip-0-4-6-package C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package
+195 verbose lock C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package C:\Users\matan\AppData\Roaming\npm-cache\445b1ab7-ng-npm-cache-geoip-0-4-6-package.lock
+196 silly gunzTarPerm modes [ '755', '644' ]
+197 silly gunzTarPerm extractEntry package.json
+198 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+199 silly gunzTarPerm extractEntry .npmignore
+200 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+201 silly gunzTarPerm extractEntry README.md
+202 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+203 silly gunzTarPerm extractEntry LICENCE
+204 silly gunzTarPerm modified mode [ 'LICENCE', 438, 420 ]
+205 silly gunzTarPerm extractEntry index.js
+206 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry binding.gyp
+208 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+209 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README
+210 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/README', 438, 420 ]
+211 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/install-sh
+212 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/install-sh', 438, 420 ]
+213 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/AUTHORS
+214 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/AUTHORS', 438, 420 ]
+215 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/bootstrap
+216 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/bootstrap', 438, 420 ]
+217 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/ChangeLog
+218 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/ChangeLog', 438, 420 ]
+219 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/GeoIP.conf.default
+220 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/conf/GeoIP.conf.default', 438, 420 ]
+221 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/Makefile.am
+222 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/conf/Makefile.am', 438, 420 ]
+223 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/Makefile.in
+224 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/conf/Makefile.in', 438, 420 ]
+225 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/config.guess
+226 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/config.guess', 438, 420 ]
+227 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/config.sub
+228 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/config.sub', 438, 420 ]
+229 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/configure
+230 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/configure', 438, 420 ]
+231 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/configure.in
+232 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/configure.in', 438, 420 ]
+233 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/COPYING
+234 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/COPYING', 438, 420 ]
+235 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/GeoIP.dat
+236 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/data/GeoIP.dat', 438, 420 ]
+237 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/Makefile.am
+238 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/data/Makefile.am', 438, 420 ]
+239 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/Makefile.in
+240 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/data/Makefile.in', 438, 420 ]
+241 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/depcomp
+242 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/depcomp', 438, 420 ]
+243 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/geoip.ico
+244 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/geoip.ico', 438, 420 ]
+245 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/GeoIP.spec.in
+246 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/GeoIP.spec.in', 438, 420 ]
+247 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/GeoIPWinDLL.patch
+248 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/GeoIPWinDLL.patch', 438, 420 ]
+249 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/get_ver.awk
+250 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/get_ver.awk', 438, 420 ]
+251 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/INSTALL
+252 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/INSTALL', 438, 420 ]
+253 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoiplookup.c
+254 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoiplookup.c', 438, 420 ]
+255 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoiplookup6.c
+256 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoiplookup6.c', 438, 420 ]
+257 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoipupdate-pureperl.pl
+258 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoipupdate-pureperl.pl', 438, 420 ]
+259 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoipupdate.c
+260 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoipupdate.c', 438, 420 ]
+261 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.am
+262 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/Makefile.am', 438, 420 ]
+263 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.in
+264 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/Makefile.in', 438, 420 ]
+265 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.vc
+266 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/Makefile.vc', 438, 420 ]
+267 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.am
+268 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/Makefile.am', 438, 420 ]
+269 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP.c
+270 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIP.c', 438, 420 ]
+271 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.c
+272 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.c', 438, 420 ]
+273 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.h
+274 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.h', 438, 420 ]
+275 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.c
+276 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.c', 438, 420 ]
+277 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.h
+278 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.h', 438, 420 ]
+279 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP_internal.h
+280 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIP_internal.h', 438, 420 ]
+281 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/global.h
+282 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/global.h', 438, 420 ]
+283 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP.h
+284 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIP.h', 438, 420 ]
+285 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.in
+286 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/Makefile.in', 438, 420 ]
+287 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.vc
+288 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/Makefile.vc', 438, 420 ]
+289 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/md5.c
+290 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/md5.c', 438, 420 ]
+291 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/md5.h
+292 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/md5.h', 438, 420 ]
+293 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/regionName.c
+294 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/regionName.c', 438, 420 ]
+295 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/timeZone.c
+296 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/timeZone.c', 438, 420 ]
+297 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/types.h
+298 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/types.h', 438, 420 ]
+299 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/ltmain.sh
+300 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/ltmain.sh', 438, 420 ]
+301 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.am
+302 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.am', 438, 420 ]
+303 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.in
+304 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.in', 438, 420 ]
+305 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.netware
+306 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.netware', 438, 420 ]
+307 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.vc
+308 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.vc', 438, 420 ]
+309 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.win32
+310 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.win32', 438, 420 ]
+311 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoiplookup.1.in
+312 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/geoiplookup.1.in', 438, 420 ]
+313 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoiplookup6.1.in
+314 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/geoiplookup6.1.in', 438, 420 ]
+315 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoipupdate.1.in
+316 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/geoipupdate.1.in', 438, 420 ]
+317 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/Makefile.am
+318 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/Makefile.am', 438, 420 ]
+319 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/Makefile.in
+320 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/Makefile.in', 438, 420 ]
+321 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/missing
+322 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/missing', 438, 420 ]
+323 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/NEWS
+324 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/NEWS', 438, 420 ]
+325 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/aclocal.m4
+326 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/aclocal.m4', 438, 420 ]
+327 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README.MinGW
+328 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/README.MinGW', 438, 420 ]
+329 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README.OSX
+330 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/README.OSX', 438, 420 ]
+331 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/READMEwin32.txt
+332 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/READMEwin32.txt', 438, 420 ]
+333 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/READMEwin32static.txt
+334 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/READMEwin32static.txt', 438, 420 ]
+335 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/region_test.txt
+336 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/region_test.txt', 438, 420 ]
+337 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/benchmark.c
+338 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/benchmark.c', 438, 420 ]
+339 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test.txt
+340 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/country_test.txt', 438, 420 ]
+341 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test2.txt
+342 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/country_test2.txt', 438, 420 ]
+343 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test_name.txt
+344 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/country_test_name.txt', 438, 420 ]
+345 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.am
+346 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/Makefile.am', 438, 420 ]
+347 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.in
+348 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/Makefile.in', 438, 420 ]
+349 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.vc
+350 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/Makefile.vc', 438, 420 ]
+351 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/city_test.txt
+352 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/city_test.txt', 438, 420 ]
+353 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-asnum.c
+354 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-asnum.c', 438, 420 ]
+355 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-city.c
+356 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-city.c', 438, 420 ]
+357 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-isp.c
+358 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-isp.c', 438, 420 ]
+359 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-netspeed.c
+360 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-netspeed.c', 438, 420 ]
+361 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-org.c
+362 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-org.c', 438, 420 ]
+363 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-region.c
+364 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-region.c', 438, 420 ]
+365 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip.c
+366 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip.c', 438, 420 ]
+367 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/TODO
+368 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/TODO', 438, 420 ]
+369 silly gunzTarPerm extractEntry src/init.cc
+370 silly gunzTarPerm modified mode [ 'src/init.cc', 438, 420 ]
+371 silly gunzTarPerm extractEntry src/city.cc
+372 silly gunzTarPerm modified mode [ 'src/city.cc', 438, 420 ]
+373 silly gunzTarPerm extractEntry src/city6.cc
+374 silly gunzTarPerm modified mode [ 'src/city6.cc', 438, 420 ]
+375 silly gunzTarPerm extractEntry src/city6.h
+376 silly gunzTarPerm modified mode [ 'src/city6.h', 438, 420 ]
+377 silly gunzTarPerm extractEntry src/country.cc
+378 silly gunzTarPerm modified mode [ 'src/country.cc', 438, 420 ]
+379 silly gunzTarPerm extractEntry src/country.h
+380 silly gunzTarPerm modified mode [ 'src/country.h', 438, 420 ]
+381 silly gunzTarPerm extractEntry src/country6.cc
+382 silly gunzTarPerm modified mode [ 'src/country6.cc', 438, 420 ]
+383 silly gunzTarPerm extractEntry src/country6.h
+384 silly gunzTarPerm modified mode [ 'src/country6.h', 438, 420 ]
+385 silly gunzTarPerm extractEntry src/global.cc
+386 silly gunzTarPerm modified mode [ 'src/global.cc', 438, 420 ]
+387 silly gunzTarPerm extractEntry src/global.h
+388 silly gunzTarPerm modified mode [ 'src/global.h', 438, 420 ]
+389 silly gunzTarPerm extractEntry src/city.h
+390 silly gunzTarPerm modified mode [ 'src/city.h', 438, 420 ]
+391 silly gunzTarPerm extractEntry src/netspeed.cc
+392 silly gunzTarPerm modified mode [ 'src/netspeed.cc', 438, 420 ]
+393 silly gunzTarPerm extractEntry src/netspeed.h
+394 silly gunzTarPerm modified mode [ 'src/netspeed.h', 438, 420 ]
+395 silly gunzTarPerm extractEntry src/node_geoip.h
+396 silly gunzTarPerm modified mode [ 'src/node_geoip.h', 438, 420 ]
+397 silly gunzTarPerm extractEntry src/org.cc
+398 silly gunzTarPerm modified mode [ 'src/org.cc', 438, 420 ]
+399 silly gunzTarPerm extractEntry src/org.h
+400 silly gunzTarPerm modified mode [ 'src/org.h', 438, 420 ]
+401 silly gunzTarPerm extractEntry src/region.cc
+402 silly gunzTarPerm modified mode [ 'src/region.cc', 438, 420 ]
+403 silly gunzTarPerm extractEntry src/region.h
+404 silly gunzTarPerm modified mode [ 'src/region.h', 438, 420 ]
+405 silly gunzTarPerm extractEntry src/utils.cc
+406 silly gunzTarPerm modified mode [ 'src/utils.cc', 438, 420 ]
+407 silly gunzTarPerm extractEntry src/utils.h
+408 silly gunzTarPerm modified mode [ 'src/utils.h', 438, 420 ]
+409 silly gunzTarPerm extractEntry wscript
+410 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+411 verbose read json C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package\package.json
+412 silly lockFile 445b1ab7-ng-npm-cache-geoip-0-4-6-package C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package
+413 silly shasum updated bytes 40960
+414 silly shasum updated bytes 40960
+415 silly shasum updated bytes 40960
+416 silly shasum updated bytes 40960
+417 silly shasum updated bytes 40960
+418 silly shasum updated bytes 40960
+419 silly shasum updated bytes 40960
+420 silly shasum updated bytes 40960
+421 silly shasum updated bytes 40960
+422 silly shasum updated bytes 40960
+423 silly shasum updated bytes 40960
+424 silly shasum updated bytes 40960
+425 silly shasum updated bytes 40960
+426 silly shasum updated bytes 40960
+427 silly shasum updated bytes 40960
+428 silly shasum updated bytes 40960
+429 silly shasum updated bytes 40960
+430 silly shasum updated bytes 40960
+431 silly shasum updated bytes 40960
+432 silly shasum updated bytes 40960
+433 silly shasum updated bytes 40960
+434 silly shasum updated bytes 40960
+435 silly shasum updated bytes 40960
+436 silly shasum updated bytes 40960
+437 silly shasum updated bytes 40960
+438 silly shasum updated bytes 40960
+439 silly shasum updated bytes 34125
+440 info shasum 40a09123bee34b630ac18a75f1641dedf9046023
+440 info shasum C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+441 verbose from cache C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package\package.json
+442 verbose chmod C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz 644
+443 silly chown skipping for windows C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+444 silly lockFile a3139bb0--npmjs-org-geoip-geoip-0-4-6-tgz https://registry.npmjs.org/geoip/-/geoip-0.4.6.tgz
+445 silly lockFile 9848cfa1-geoip-0-4-6 geoip@0.4.6
+446 silly lockFile 5bd2b521-geoip geoip@
+447 silly resolved [ { name: 'geoip',
+447 silly resolved     description: 'GeoIP binding for node',
+447 silly resolved     version: '0.4.6',
+447 silly resolved     homepage: 'http://github.com/kuno/GeoIP',
+447 silly resolved     author:
+447 silly resolved      { name: 'Guan \'kuno\' Qing',
+447 silly resolved        email: 'neokuno at Gmail dot com' },
+447 silly resolved     contributors:
+447 silly resolved      [ [Object],
+447 silly resolved        [Object],
+447 silly resolved        [Object],
+447 silly resolved        [Object],
+447 silly resolved        [Object],
+447 silly resolved        [Object],
+447 silly resolved        [Object],
+447 silly resolved        [Object] ],
+447 silly resolved     repository: { type: 'git', url: 'git://github.com/kuno/GeoIP.git' },
+447 silly resolved     keywords: [ 'geoip', 'geolocation' ],
+447 silly resolved     bugs:
+447 silly resolved      { mail: 'neokuno@gmail.com',
+447 silly resolved        url: 'http://github.com/kuno/GeoIP/issues' },
+447 silly resolved     main: 'index.js',
+447 silly resolved     directory:
+447 silly resolved      { src: './src',
+447 silly resolved        test: './test',
+447 silly resolved        misc: './misc',
+447 silly resolved        sample: './sample',
+447 silly resolved        benchmark: './benchmark' },
+447 silly resolved     engine: { node: '>=0.8.0', npm: '1' },
+447 silly resolved     script: { install: 'node-gyp clean configure build' },
+447 silly resolved     licences: [ [Object] ],
+447 silly resolved     scripts: { install: 'node-gyp rebuild' },
+447 silly resolved     gypfile: true,
+447 silly resolved     readme: '__GeoIP binding for nodejs__\n\nGet geolocation information based on domain or IP address.\n\n##Important Notification\n\nFrom __v0.4.0__, geoip will be bind to libgeoip >= __1.4.7__, which is a C library, __the api also has been changed__.\n\n###Technical Architecture\n\n![new_architecture](https://github.com/kuno/GeoIP/raw/master/misc/new_architecture.png)\n\n\n###Dependency\n\n####libgeoip C library\n\nIf your os has a system package manager (e.g, on linux, apt of ubuntu, yum of fedora, pacman of arch. MacPorts and homebrew on OSX),\n\nthen, there is a very high possibility that there is alreay a geoip c library package inside the repository.\n\nIf not, you can build for yourself:\n\n    wget http://geolite.maxmind.com/download/geoip/api/c/GeoIP-1.4.7.tar.gz\n    tar -xvzf GeoIP-1.4.7.tar.gz\n    cd GeoIP-1.4.7\n    ./configure --prefix=/usr\n    make\n    sudo make install\n\n#####Dependency Policy\n\nGeoIP takes the so call \'two steps\' dependency policy, which means the minimal version of libgeoip is always the previous release of the latest one.\n\nFor example, currently(April 2012) latest release of libgeoip is 1.4.8, so the minimal dependency will be the previous release, which is 1.4.7, and so on. \n\n##Data\n\nBefor you can use this package, you need to download or buy some data from [www.maxmind.com](http://www.maxmind.com/app/ip-location).\n\nThere are some free databases among some commercial versions, the free databases can be found [here](http://geolite.maxmind.com/download/geoip/database/).\n\n\n##Installation\n\n### for nodejs 0.8.x\n\n    [sudo] npm install geoip [-g]\n\n### for nodejs 0.6.x\n\n    [sudo] npm install geoip@0.4.5 [-g]\n\n### for nodejs 0.4.x\n\n    [sudo] npm install geoip@0.4.4 [-g]\n\n### for nodejs older than 0.4.0\n\nFrom v0.4.0, geoip need nodejs >= 0.4.0, if you want to use it on old nodejs, you can:\n\n    npm install geoip@0.3.4-1\n\n\n##Usage\n\n###Check edition\n\n    var edition = geoip.check(\'/path/to/file\');\n\n    console.log(edition); // output \'country\', \'city\', \'org\'... so on\n\n###Create a new instance of sub-module, for example:\n\n    var city = new geoip.City(\'/path/to/GeoLiteCity.dat\', false);  // not to cache the database\n\n    var city = new geoip.City(\'/path/to/GeoLiteCity.dat\');  // the default option is cache\n\n###Update database on the fly:\n\n    city.update(\'/path/to/new/GeoLiteCity.dat\');\n\n##Modules\n\n###Country\n\nipv4 address lookup\n\n    // Open the country data file\n    var Country = geoip.Country;\n\n    var country = new Country(\'/path/to/GeoIP.dat\');\n\n    // Synchronous method(the recommended way):\n    var country_obj = country.lookupSync(\'8.8.8.8\');\n\n    console.log(country_obj);\n    /*\n      { country_code: \'US\',\n        country_code3: \'USA\',\n        country_name: \'United States\',\n        continent_code: \'NA\'\n      }\n    */\n\n    // Asynchronous method:\n    country.lookup(\'www.google.com\', function(err, data) {\n        if (err) {throw err;}\n        if (data) { // if not found, just return null\n            console.log(data);  // same as lookup method\n        }\n    });\n\nipv6 address lookup (Currently only Country and City module supports ipv6)\n\n    // Open the ipv6 edition of country module\n    var Country6 = geoip.Country6;\n\n    var country_v6 = new Country6(\'/path/to/GeoIPv6.dat\');\n\n    // Synchronous method\n    var country_obj_v6 = country_v6.lookupSync(\'2607:f0d0:1002:0051:0000:0000:0000:0004\');\n\n    console.log(country_obj_v6); // Same as ipv4\n    /*\n      { country_code: \'US\',\n        country_code3: \'USA\',\n        country_name: \'United States\',\n        continent_code: \'NA\'\n      }\n    */\n\n    // Asynchronous method\n    country_v6.lookup(\'2400:2352:b0f1:36c5:aa9d:694a:2f98:40bd\', function(err, data_v6) {\n        if (err) {throw err;}\n        if (data_v6) {\n            console.log(data_v6);\n            /*\n             {\n               country_code: \'JP\',\n               country_code3: \'JPN\',\n               country_name: \'Japan\',\n               continent_code: \'AS\'\n              }\n\n            */\n        }\n    });\n\n\n###City\n\nipv4 address lookup\n\n    // Open the GeoLiteCity.dat file first.\n    var City = geoip.City;\n    var city = new City(\'/path/to/GeoLiteCity.dat\');\n\n  Synchronous method:\n\n      var city_obj = city.lookupSync(\'8.8.8.8\');\n      console.log(city_obj);\n      /*\n      Return an object of city information\n      {\n       "country_code":"US",\n       "country_code3":"USA",\n       "country_name":"United States",\n       "continet_code":"NA",\n       "region":"CA",\n       "city":"Mountain View",\n       "postal_code":"94043",\n       "latitude":37.41919999999999,\n       "longitude":-122.0574,\n       "dma_code":807,\n       "metro_code":807,\n       "area_code":650\n       }\n       */\n\n  Asynchronous method:\n\n      city.lookup(\'www.google.com\', function(err, data) {\n        if (err) {throw err;}\n        if (data) {\n            console.log(data);\n        }\n      });\n\n\nipv6 address lookup\n\n    // Open the GeoLiteCityv6.dat file first.\n    var City6 = geoip.City6;\n    var city6 = new City6(\'/path/to/GeoLiteCityv6.dat\');             \n\n  Synchronous method:\n\n      var city6_obj = city6.lookupSync(\'2002:7679:b9af:db9b:ab51:501a:db4e:2d\');\n      console.log(city6_obj);\n      /*\n      { \n       country_code: \'CN\',\n       country_code3: \'CHN\',\n       country_name: \'China\',\n       region: \'32\',\n       city: \'Chengdu\',\n       latitude: 30.66670036315918,\n       longitude: 104.06670379638672,\n       continent_code: \'AS\'\n      }\n      */\n\n  Asynchronous method:\n\n      city6.lookup(\'2002:c6aa:2dc8:b719:4314:2a7d:e31c:fe73\', function(err, data) {\n        if (err) {throw err;}\n        if (data) {\n            console.log(data);\n            /* As expected ,return an object that contains city information\n            { \n             country_code: \'US\',\n             country_code3: \'USA\',\n             country_name: \'United States\',\n             region: \'CO\',\n             city: \'Englewood\',\n             postal_code: \'80112\',\n             latitude: 39.569000244140625,\n             longitude: -104.85820007324219,\n             continent_code: \'NA\' \n            }\n            */\n          }\n      });              \n\n###Organization\n\n    var Org = geoip.Org;\n    var org = new Org(\'/path/to/file\')  // Org module can open three edition database \'org\', \'asnum\', \'isp\'\n\nSynchronous method:\n\n    var org_str = org.lookupSync(\'8.8.8.8\');\n\n    console.log(org_str);\n    /*\n      The type of returned data is string, for example:\n\n      \'Genuity\'\n      \'AS15169 Google Inc.\'\n\n      no longer an object\n    */\n\nAsynchronous method:\n\n    org.lookup(\'www.google.com\', function(err, data) {\n        if (err) {throw err;}\n        if (data) {\n            console.log(data);\n        }\n    });\n\n\n###Region\n\n    var Region = geoip.Region;\n    var region = new Region(\'/path/to/GeoIPRegion.dat\');\n\nSynchronous method:\n\n    var region_obj = region.lookupSync(\'8.8.8.8\');\n\n    console.log(\'region_obj);\n    /*\n      region object has two properties:\n      { country_code: \'US\', region: \'CO\' }\n\n    */\n\nAsynchronous method:\n\n    region.lookup(\'www.google.com\', function(err, data) {\n        if (err) {throw err;}\n        if (data) {\n          console.log(data);\n        }\n    });\n\n\n###NetSpeed\n\n    var NetSpeed = geoip.NetSpeed;\n    var netspeed = new NetSpeed(\'/path/to/GeoIPNetSpeed.dat\');\n\nSynchronous method:\n\n    var netspeed_str = netspeed.lookupSync(\'8.8.8.8\');\n\n    console.log(netspeed_str);\n    /*\n      netspeed_str just a simple string, \'Dialup\', \'Corprate\'... so on\n    */\n\nAsynchronous method:\n\n    netspeed.lookup(\'www.google.com\', function(err, data) {\n        if (err) {throw err;}\n        if (data) {\n          console.log(data);  // Maybe return \'unknow\' or different from lookup method\n        }\n    });\n',
+447 silly resolved     _id: 'geoip@0.4.6',
+447 silly resolved     dist: { shasum: '40a09123bee34b630ac18a75f1641dedf9046023' },
+447 silly resolved     _from: 'geoip' } ]
+448 info install geoip@0.4.6 into C:\Github\LinkedInLogin
+449 info installOne geoip@0.4.6
+450 verbose from cache C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package\package.json
+451 info C:\Github\LinkedInLogin\node_modules\geoip unbuild
+452 verbose read json C:\Github\LinkedInLogin\node_modules\geoip\package.json
+453 verbose tar unpack C:\Users\matan\AppData\Roaming\npm-cache\geoip\0.4.6\package.tgz
+454 silly lockFile 2f4d6e98-LinkedInLogin-node-modules-geoip C:\Github\LinkedInLogin\node_modules\geoip
+455 verbose lock C:\Github\LinkedInLogin\node_modules\geoip C:\Users\matan\AppData\Roaming\npm-cache\2f4d6e98-LinkedInLogin-node-modules-geoip.lock
+456 silly gunzTarPerm modes [ '755', '644' ]
+457 silly gunzTarPerm extractEntry package.json
+458 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+459 silly gunzTarPerm extractEntry .npmignore
+460 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+461 silly gunzTarPerm extractEntry README.md
+462 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+463 silly gunzTarPerm extractEntry LICENCE
+464 silly gunzTarPerm modified mode [ 'LICENCE', 438, 420 ]
+465 silly gunzTarPerm extractEntry index.js
+466 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+467 silly gunzTarPerm extractEntry binding.gyp
+468 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+469 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README
+470 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/README', 438, 420 ]
+471 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/install-sh
+472 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/install-sh', 438, 420 ]
+473 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/AUTHORS
+474 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/AUTHORS', 438, 420 ]
+475 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/bootstrap
+476 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/bootstrap', 438, 420 ]
+477 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/ChangeLog
+478 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/ChangeLog', 438, 420 ]
+479 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/GeoIP.conf.default
+480 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/conf/GeoIP.conf.default', 438, 420 ]
+481 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/Makefile.am
+482 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/conf/Makefile.am', 438, 420 ]
+483 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/conf/Makefile.in
+484 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/conf/Makefile.in', 438, 420 ]
+485 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/config.guess
+486 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/config.guess', 438, 420 ]
+487 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/config.sub
+488 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/config.sub', 438, 420 ]
+489 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/configure
+490 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/configure', 438, 420 ]
+491 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/configure.in
+492 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/configure.in', 438, 420 ]
+493 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/COPYING
+494 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/COPYING', 438, 420 ]
+495 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/GeoIP.dat
+496 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/data/GeoIP.dat', 438, 420 ]
+497 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/Makefile.am
+498 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/data/Makefile.am', 438, 420 ]
+499 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/data/Makefile.in
+500 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/data/Makefile.in', 438, 420 ]
+501 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/depcomp
+502 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/depcomp', 438, 420 ]
+503 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/geoip.ico
+504 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/geoip.ico', 438, 420 ]
+505 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/GeoIP.spec.in
+506 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/GeoIP.spec.in', 438, 420 ]
+507 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/GeoIPWinDLL.patch
+508 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/GeoIPWinDLL.patch', 438, 420 ]
+509 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/get_ver.awk
+510 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/get_ver.awk', 438, 420 ]
+511 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/INSTALL
+512 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/INSTALL', 438, 420 ]
+513 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoiplookup.c
+514 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoiplookup.c', 438, 420 ]
+515 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoiplookup6.c
+516 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoiplookup6.c', 438, 420 ]
+517 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoipupdate-pureperl.pl
+518 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoipupdate-pureperl.pl', 438, 420 ]
+519 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/geoipupdate.c
+520 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/geoipupdate.c', 438, 420 ]
+521 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.am
+522 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/Makefile.am', 438, 420 ]
+523 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.in
+524 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/Makefile.in', 438, 420 ]
+525 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/apps/Makefile.vc
+526 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/apps/Makefile.vc', 438, 420 ]
+527 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.am
+528 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/Makefile.am', 438, 420 ]
+529 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP.c
+530 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIP.c', 438, 420 ]
+531 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.c
+532 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.c', 438, 420 ]
+533 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.h
+534 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPCity.h', 438, 420 ]
+535 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.c
+536 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.c', 438, 420 ]
+537 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.h
+538 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIPUpdate.h', 438, 420 ]
+539 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP_internal.h
+540 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIP_internal.h', 438, 420 ]
+541 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/global.h
+542 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/global.h', 438, 420 ]
+543 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/GeoIP.h
+544 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/GeoIP.h', 438, 420 ]
+545 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.in
+546 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/Makefile.in', 438, 420 ]
+547 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/Makefile.vc
+548 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/Makefile.vc', 438, 420 ]
+549 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/md5.c
+550 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/md5.c', 438, 420 ]
+551 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/md5.h
+552 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/md5.h', 438, 420 ]
+553 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/regionName.c
+554 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/regionName.c', 438, 420 ]
+555 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/timeZone.c
+556 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/timeZone.c', 438, 420 ]
+557 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/libGeoIP/types.h
+558 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/libGeoIP/types.h', 438, 420 ]
+559 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/ltmain.sh
+560 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/ltmain.sh', 438, 420 ]
+561 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.am
+562 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.am', 438, 420 ]
+563 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.in
+564 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.in', 438, 420 ]
+565 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.netware
+566 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.netware', 438, 420 ]
+567 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.vc
+568 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.vc', 438, 420 ]
+569 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/Makefile.win32
+570 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/Makefile.win32', 438, 420 ]
+571 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoiplookup.1.in
+572 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/geoiplookup.1.in', 438, 420 ]
+573 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoiplookup6.1.in
+574 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/geoiplookup6.1.in', 438, 420 ]
+575 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/geoipupdate.1.in
+576 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/geoipupdate.1.in', 438, 420 ]
+577 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/Makefile.am
+578 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/Makefile.am', 438, 420 ]
+579 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/man/Makefile.in
+580 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/man/Makefile.in', 438, 420 ]
+581 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/missing
+582 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/missing', 438, 420 ]
+583 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/NEWS
+584 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/NEWS', 438, 420 ]
+585 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/aclocal.m4
+586 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/aclocal.m4', 438, 420 ]
+587 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README.MinGW
+588 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/README.MinGW', 438, 420 ]
+589 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/README.OSX
+590 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/README.OSX', 438, 420 ]
+591 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/READMEwin32.txt
+592 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/READMEwin32.txt', 438, 420 ]
+593 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/READMEwin32static.txt
+594 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/READMEwin32static.txt', 438, 420 ]
+595 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/region_test.txt
+596 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/region_test.txt', 438, 420 ]
+597 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/benchmark.c
+598 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/benchmark.c', 438, 420 ]
+599 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test.txt
+600 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/country_test.txt', 438, 420 ]
+601 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test2.txt
+602 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/country_test2.txt', 438, 420 ]
+603 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/country_test_name.txt
+604 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/country_test_name.txt', 438, 420 ]
+605 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.am
+606 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/Makefile.am', 438, 420 ]
+607 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.in
+608 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/Makefile.in', 438, 420 ]
+609 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/Makefile.vc
+610 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/Makefile.vc', 438, 420 ]
+611 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/city_test.txt
+612 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/city_test.txt', 438, 420 ]
+613 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-asnum.c
+614 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-asnum.c', 438, 420 ]
+615 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-city.c
+616 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-city.c', 438, 420 ]
+617 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-isp.c
+618 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-isp.c', 438, 420 ]
+619 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-netspeed.c
+620 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-netspeed.c', 438, 420 ]
+621 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-org.c
+622 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-org.c', 438, 420 ]
+623 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip-region.c
+624 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip-region.c', 438, 420 ]
+625 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/test/test-geoip.c
+626 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/test/test-geoip.c', 438, 420 ]
+627 silly gunzTarPerm extractEntry deps/GeoIP-1.4.8/TODO
+628 silly gunzTarPerm modified mode [ 'deps/GeoIP-1.4.8/TODO', 438, 420 ]
+629 silly gunzTarPerm extractEntry src/init.cc
+630 silly gunzTarPerm modified mode [ 'src/init.cc', 438, 420 ]
+631 silly gunzTarPerm extractEntry src/city.cc
+632 silly gunzTarPerm modified mode [ 'src/city.cc', 438, 420 ]
+633 silly gunzTarPerm extractEntry src/city6.cc
+634 silly gunzTarPerm modified mode [ 'src/city6.cc', 438, 420 ]
+635 silly gunzTarPerm extractEntry src/city6.h
+636 silly gunzTarPerm modified mode [ 'src/city6.h', 438, 420 ]
+637 silly gunzTarPerm extractEntry src/country.cc
+638 silly gunzTarPerm modified mode [ 'src/country.cc', 438, 420 ]
+639 silly gunzTarPerm extractEntry src/country.h
+640 silly gunzTarPerm modified mode [ 'src/country.h', 438, 420 ]
+641 silly gunzTarPerm extractEntry src/country6.cc
+642 silly gunzTarPerm modified mode [ 'src/country6.cc', 438, 420 ]
+643 silly gunzTarPerm extractEntry src/country6.h
+644 silly gunzTarPerm modified mode [ 'src/country6.h', 438, 420 ]
+645 silly gunzTarPerm extractEntry src/global.cc
+646 silly gunzTarPerm modified mode [ 'src/global.cc', 438, 420 ]
+647 silly gunzTarPerm extractEntry src/global.h
+648 silly gunzTarPerm modified mode [ 'src/global.h', 438, 420 ]
+649 silly gunzTarPerm extractEntry src/city.h
+650 silly gunzTarPerm modified mode [ 'src/city.h', 438, 420 ]
+651 silly gunzTarPerm extractEntry src/netspeed.cc
+652 silly gunzTarPerm modified mode [ 'src/netspeed.cc', 438, 420 ]
+653 silly gunzTarPerm extractEntry src/netspeed.h
+654 silly gunzTarPerm modified mode [ 'src/netspeed.h', 438, 420 ]
+655 silly gunzTarPerm extractEntry src/node_geoip.h
+656 silly gunzTarPerm modified mode [ 'src/node_geoip.h', 438, 420 ]
+657 silly gunzTarPerm extractEntry src/org.cc
+658 silly gunzTarPerm modified mode [ 'src/org.cc', 438, 420 ]
+659 silly gunzTarPerm extractEntry src/org.h
+660 silly gunzTarPerm modified mode [ 'src/org.h', 438, 420 ]
+661 silly gunzTarPerm extractEntry src/region.cc
+662 silly gunzTarPerm modified mode [ 'src/region.cc', 438, 420 ]
+663 silly gunzTarPerm extractEntry src/region.h
+664 silly gunzTarPerm modified mode [ 'src/region.h', 438, 420 ]
+665 silly gunzTarPerm extractEntry src/utils.cc
+666 silly gunzTarPerm modified mode [ 'src/utils.cc', 438, 420 ]
+667 silly gunzTarPerm extractEntry src/utils.h
+668 silly gunzTarPerm modified mode [ 'src/utils.h', 438, 420 ]
+669 silly gunzTarPerm extractEntry wscript
+670 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+671 verbose read json C:\Github\LinkedInLogin\node_modules\geoip\package.json
+672 silly lockFile 2f4d6e98-LinkedInLogin-node-modules-geoip C:\Github\LinkedInLogin\node_modules\geoip
+673 info preinstall geoip@0.4.6
+674 verbose from cache C:\Github\LinkedInLogin\node_modules\geoip\package.json
+675 verbose readDependencies using package.json deps
+676 verbose from cache C:\Github\LinkedInLogin\node_modules\geoip\package.json
+677 verbose readDependencies using package.json deps
+678 silly resolved []
+679 verbose about to build C:\Github\LinkedInLogin\node_modules\geoip
+680 info build C:\Github\LinkedInLogin\node_modules\geoip
+681 verbose from cache C:\Github\LinkedInLogin\node_modules\geoip\package.json
+682 verbose linkStuff [ false, false, false, 'C:\\Github\\LinkedInLogin\\node_modules' ]
+683 info linkStuff geoip@0.4.6
+684 verbose linkBins geoip@0.4.6
+685 verbose linkMans geoip@0.4.6
+686 verbose rebuildBundles geoip@0.4.6
+687 info install geoip@0.4.6
+688 verbose unsafe-perm in lifecycle true
+689 silly exec cmd "/c" "node-gyp rebuild"
+690 silly cmd,/c,node-gyp rebuild,C:\Github\LinkedInLogin\node_modules\geoip spawning
+691 info geoip@0.4.6 Failed to exec install script
+692 info C:\Github\LinkedInLogin\node_modules\geoip unbuild
+693 verbose from cache C:\Github\LinkedInLogin\node_modules\geoip\package.json
+694 info preuninstall geoip@0.4.6
+695 info uninstall geoip@0.4.6
+696 verbose true,C:\Github\LinkedInLogin\node_modules,C:\Github\LinkedInLogin\node_modules unbuild geoip@0.4.6
+697 info postuninstall geoip@0.4.6
+698 error geoip@0.4.6 install: `node-gyp rebuild`
+698 error `cmd "/c" "node-gyp rebuild"` failed with 1
+699 error Failed at the geoip@0.4.6 install script.
+699 error This is most likely a problem with the geoip package,
+699 error not with npm itself.
+699 error Tell the author that this fails on your system:
+699 error     node-gyp rebuild
+699 error You can get their info via:
+699 error     npm owner ls geoip
+699 error There is likely additional logging output above.
+700 error System Windows_NT 6.1.7601
+701 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "geoip"
+702 error cwd C:\Github\LinkedInLogin
+703 error node -v v0.8.4
+704 error npm -v 1.1.45
+705 error code ELIFECYCLE
+706 verbose exit [ 1, true ]
