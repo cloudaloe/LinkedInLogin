@@ -1,10 +1,14 @@
 //
-// todo: handle server disconnects as per https://github.com/felixge/node-mysql#server-disconnects,
-//  https://github.com/felixge/node-mysql#error-handling,
-//  and try-catching
-
+// Login with LinkedIn identity - see client-side code for the real stuff
 //
-// setup a listener and attach a content server to it
+// LinkedIn relies on some cross-domain injections to establish this.
+// They seem to claim it is no big deal - http://developer.linkedin.com/forum/cross-domain-issues
+// See also http://developer.linkedin.com/forum/login-linkedin.
+//
+// Note this project can only fully run on Heroku (i.e. it cannot fully run locally).
+// Currently it is running on http://serene-taiga-2666.herokuapp.com/showCase.html
+//
+// Only prints the login data to the browser console for now.
 //
 
 //var hostname = 'localhost';
