@@ -1,1 +1,0 @@
-Perform the OpenID flow for authenticating a user with their Google account
